@@ -2,7 +2,7 @@
 
 Création sommaire d'un mini boilerplate HTML.
 
-![Screenshot](screenshot.png
+![Screenshot](screenshot.png)
 
 ## Contributing
 [makeareadme](https://www.makeareadme.com/)
