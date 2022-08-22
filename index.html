@@ -1,0 +1,170 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>boilerplate html</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <!--<link rel="apple-touch-icon" href="icon.png">-->
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <!-- Add your site or application content here -->
+
+    <header id="header" role="banner" class="flex-conteneur">
+        <div class="col-03">
+            <img class="logo" src="favicon.svg">
+        </div>
+        <div class="col-06">
+            <h1>boilerplate html</h1>
+        </div>
+        <div class="col-03"></div>
+    </header>
+
+    <nav id="navigation" role="navigation">
+        <input type="checkbox" id="bascule">
+        <label for="bascule" class="hamburger">&#9776; Navigation</label>
+        <ul id="menu">
+            <li>
+                <a class="active" href="./">Accueil</a>
+            </li>
+            <li>
+                <a href="./">Contact</a>
+            </li>
+            <li>
+                <a href="./">Mentions légales</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="main" role="main" class="flex-conteneur">
+
+        <section id="section" class="col-08">
+            <article>
+                <h2>Article</h2>
+                <p>Je suis le premier article</p>
+                <form>
+                    <textarea placeholder="Un peu de texte..."></textarea>
+                </form>
+            </article>
+            <article>
+                <h2>Article</h2>
+                <p>Je suis le second article</p>
+                <table>
+                    <tr>
+                        <th>colonne 01</th>
+                        <th>colonne 02</th>
+                        <th>colonne 03</th>
+                    </tr>
+                    <tr>
+                        <td>cellule 01</td>
+                        <td>cellule 02</td>
+                        <td>cellule 03</td>
+                    </tr>
+                    <tr>
+                        <td>cellule 04</td>
+                        <td>cellule 05</td>
+                        <td>cellule 06</td>
+                    </tr>
+                    <tr>
+                        <td>cellule 07</td>
+                        <td>cellule 08</td>
+                        <td>cellule 09</td>
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <h2>Article</h2>
+                <p>Je suis le troisième article</p>
+                <form action="#">
+                    <label for="prenom">Prenom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Votre prénom...">
+
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom...">
+
+                    <label for="pays">Pays</label>
+                    <select id="pays" name="pays">
+                        <option value="france">France</option>
+                        <option value="belgique">Belgique</option>
+                        <option value="suisse">Suisse</option>
+                    </select>
+                    <input type="submit" class="button button-succes" value="Valider">
+                </form>
+            </article>
+            <article>
+                <h2>Article</h2>
+                <p>Je suis le quatrième article</p>
+                <button class="button button-succes">success</button>
+                <button class="button button-info">info</button>
+                <button class="button button-danger">danger</button>
+                <button class="button button-normal">normal</button>
+            </article>
+            <article>
+                <h2>Article</h2>
+                <p>Je suis le cinquième article</p>
+                <pre>
+                <code>
+&lt;h1>Test code&lt;/h1>
+                </code>
+            </pre>
+            </article>
+        </section>
+
+        <aside class="aside col-04" role="complementary">
+            <h3>Lien(s) externe(s)</h3>
+            <ul>
+                <li class="list-item">
+                    <a class="link-item" href="./">Lien 001</a>
+                </li>
+                <li class="list-item">
+                    <a class="link-item" href="./">Lien 002</a>
+                </li>
+                <li class="list-item">
+                    <a class="link-item" href="./">Lien 003</a>
+                </li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <footer id="footer" role="contentinfo">
+        <div class="col-12">
+            <h3>A propos</h3>
+            <ul>
+                <li>Copyright &copy; bibibricodeur</li>
+                <li>"A ce Jonathan le Goéland qui sommeille en chacun de nous." Richard BACH</li>
+            </ul>
+        </div>
+    </footer>
+
+    <a href="#header" class="button button-succes" id="bouton_remonter"
+        title="Clic pour remonter en haut de cette satanée page">Remonter</a>
+
+    <!--<script src="js/vendor/modernizr-3.11.2.min.js"></script>-->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
