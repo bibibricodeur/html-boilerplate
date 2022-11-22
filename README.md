@@ -1,4 +1,4 @@
-# boilerplate-html
+# Html boilerplate
 
 Création sommaire d'un mini boilerplate HTML.
 
